@@ -4,7 +4,7 @@ import ViewContainer from "../layouts/view-container";
 
 export default function HowThisWorks() {
   return (
-    <SectionContainer id="how-this-works">
+    <SectionContainer id="how-this-works" className="max-md:pb-24">
       <ViewContainer>
         <h2 className="text-4xl font-semibold leading-snug text-center">How this Works?</h2>
         <p className="text-neutral-500 text-center mt-4">

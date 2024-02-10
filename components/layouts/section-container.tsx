@@ -4,7 +4,7 @@ const SectionContainer: React.FunctionComponent<
   React.HTMLAttributes<HTMLDivElement>
 > = ({ className, children, ...props }) => {
   return (
-    <div className={cn('py-12', className)} {...props}>
+    <div className={cn('py-12 max-md:py-8', className)} {...props}>
       {children}
     </div>
   );

@@ -17,7 +17,7 @@ export default function Navbar() {
           height={60}
         />
       </div>
-      <div className="options-wrapper flex flex-row items-center justify-center gap-3">
+      <div className="options-wrapper flex flex-row items-center justify-center gap-3 max-md:hidden ">
         {NavbarOptionsList.map((option: string, index: number) => {
           return <p className="cursor-pointer text-neutral-400 hover:text-green-400" key={index}>{option}</p>
         })}

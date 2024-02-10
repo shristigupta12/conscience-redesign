@@ -35,7 +35,7 @@ export default function HeroSection() {
           Contact Support
         </Button>
       </div>
-      <div className="bg-green-400 w-[200px] h-[200px] rounded-full absolute -top-6 left-[480px] blur-3xl opacity-30 animate-pulse" />
+      <div className="bg-green-400 w-[200px] h-[200px] rounded-full absolute -top-6 left-[480px] blur-3xl opacity-30 animate-pulse max-md:w-[100px] max-md:w-[100px] max-md:left-[120px] max-md:-top-3" />
     </ViewContainer>
     <div
       className="hero-dashboard-image-wrapper mt-24"
@@ -47,7 +47,7 @@ export default function HeroSection() {
         alt="dashboard-demo-image"
         width={'800'}
         height={'1000'}
-        className="block mx-auto max-lg:w-full max-md:mt-12 shadow-xl shadow-green-400/20 rounded-lg border"
+        className="block mx-auto max-lg:w-full max-md:mt-12 shadow-xl shadow-green-400/20 rounded-lg border max-md:w-11/12"
         style={{
           transform: `rotateX(${tiltDegree}deg)`,
           transition: 'transform 0.3s ease-out',
